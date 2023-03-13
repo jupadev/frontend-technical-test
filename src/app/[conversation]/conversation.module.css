@@ -1,0 +1,53 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.messages {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+.message {
+  padding: 10px 20px;
+  width: fit-content;
+  border-radius: 12px;
+  color: white;
+}
+
+.message-sender {
+  align-self: flex-end;
+  background-color: #009688;
+  border-color: gray;
+}
+
+.message-recipt {
+  align-self: flex-start;
+  background-color: #89b863;
+  border-color: darkgreen;
+}
+
+.form {
+  display: flex;
+  margin-top: 5px;
+}
+
+.textbox {
+  width: 85%;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid gray;
+}
+
+.submit {
+  width: 15%;
+  border-radius: 12px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
