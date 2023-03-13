@@ -1,8 +1,7 @@
-import styles from "../styles/Home.module.css";
+import styles from "./Home.module.css";
 import { getLoggedUserId } from "../utils/getLoggedUserId";
 import { Conversation } from "../types/conversation";
 import Link from "next/link";
-import { GetServerSideProps } from "next";
 
 type Props = {
   conversations: Conversation[];
